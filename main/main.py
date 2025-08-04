@@ -1,5 +1,7 @@
 from jumlah import penjumlahan
 from kali import perkalian
+from kurang import pengurangan
+from bagi import pembagian
 def menu():
     print("\n🔢 KALKULATOR SEDERHANA 🔢")
     print("1. Penjumlahan")
@@ -12,11 +14,11 @@ def menu():
     if pilihan == "1":
         penjumlahan ()
     elif pilihan == "2":
-         print("Fitur pengurangan belum tersedia")
+         pengurangan()
     elif pilihan == "3":
             perkalian()
     elif pilihan == "4":
-            print("Fitur pembagian belum tersedia")
+            pembagian()
     elif pilihan == "5":
             print("Terima kasih telah menggunakan kalkulator!")
 
